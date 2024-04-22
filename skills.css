@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+html{
+    background: #FAF9F6;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-bottom: rgba(0,0,0,.5) 3px solid;
+}
+
+header > * {
+    padding: 10px;
+}
+
+#header-links > a{
+    padding: 20px;
+    margin-right: 10px;
+
+    text-decoration: none;
+
+    color: #414a4c;
+    background-color: #eba7a2;
+    border-radius: 10px;
+
+}
+
+#front-image{
+    width: 10%;
+}
+
+#front-bio{
+    display: flex;
+    border: black;  
+    width: 100%;  
+    
+    padding: 10px;
+}
+
+
+#donate{
+    border: black 1.5px solid;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#donate > a{
+    color: black;
+    background-color: #eba7a2;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+#partners{
+    margin: 0px;
+    background-color: #eba7a2;
+    padding: 10px;
+    padding-bottom: 150px;
+}
+
+#partners-heading {
+    font-size: 75px;
+    text-align: center;
+    margin: 20px;
+}
+#partners-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+#partners-logo > img{
+    width: 25%;
+}
+#Shelby{
+    width: 50%;
+    
+}
+#bio{
+     width:50%;
+     font-size: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: "Sedan", serif;
+    align-items: flex-end;
+    font-size: 12px;
+}
+
+footer > img {
+    justify-content: flex-start;
+    
+}
+
+/* @media screen and (max-width: 375px){
+    #partners-logo{
+        display: block;
+    }
+} */
